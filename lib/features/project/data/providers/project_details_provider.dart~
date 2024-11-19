@@ -1,0 +1,26 @@
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:homei/core/utils/constants.dart';
+import 'package:homei/features/project/data/repositories/project_details_repository.dart';
+import '../../data/datasources/remote_data_source.dart';
+import '../../domain/entities/project_entity.dart';
+import '../../domain/usecases/get_project_usecase.dart';
+
+final remoteDataSourceProvider = Provider<RemoteDataSource>((ref) {
+  return RemoteDataSource(baseUrl: Constants.baseUrl); // Replace with your actual base URL
+});
+
+final projectRepositoryProvider = Provider<ProjectDetailsRepository>((ref) {
+  final remoteDataSource = ref.read(remoteDataSourceProvider);
+  return ProjectDetailsRepository(remoteDataSource: remoteDataSource);
+});
+
+final getProjectUseCaseProvider = Provider<GetProjectUseCase>((ref) {
+  final repository = ref.read(projectRepositoryProvider);
+  return GetProjectUseCase(repository: repository);
+});
+
+// Provider for fetching project data
+final projectProvider = FutureProvider<ProjectEntity>((ref) async {
+  final getProjectUseCase = ref.read(getProjectUseCaseProvider);
+  return await getProjectUseCase.call();
+});
