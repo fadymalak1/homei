@@ -4,8 +4,8 @@ import 'core/localization/app_localizations.dart';
 import 'core/localization/locale_controller.dart';
 import 'core/routes.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-
-import 'core/utils/color_palette.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'core/utils/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,9 +35,8 @@ class MyApp extends ConsumerWidget {
         GlobalWidgetsLocalizations.delegate,
       ],
       onGenerateTitle: (context) => AppLocalizations.of(context).translate('welcome'),
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
-        useMaterial3: true,
+      theme: AppThemes.lightTheme.copyWith(
+        textTheme: GoogleFonts.robotoTextTheme(ThemeData.light().textTheme),
       ),
       initialRoute: AppRoutes.onboarding,
       onGenerateRoute: AppRoutes.generateRoute,

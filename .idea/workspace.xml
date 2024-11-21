@@ -10,33 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcf7ab66-34e0-4ada-8300-c8ca076866e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/features/onboarding/presentation/controllers/onboarding_controller.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/onboarding/presentation/screens/onboarding_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/routes.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/utils/app_images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/utils/app_images.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/utils/logger.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/utils/logger.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/data/datasources/remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/data/datasources/remote_data_source.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/data/models/project_details_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/data/models/project_details_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/data/providers/project_details_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/data/providers/project_details_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/data/repositories/project_details_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/data/repositories/project_details_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/domain/entities/project_entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/domain/entities/project_entity.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/domain/usecases/get_project_usecase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/domain/usecases/get_project_usecase.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/controllers/product_details_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/controllers/product_details_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/screens/project_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/screens/project_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/client_revenue_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/client_revenue_chart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/payment_plan.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/payment_plan.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/project_amenities.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/project_amenities.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/project_area_specification.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/project_area_specification.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/project_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/project_header.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/project_location.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/project_location.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/project_timeline.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/project_timeline.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/project/presentation/widgets/raw_materials_chart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/project_details/presentation/widgets/raw_materials_chart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

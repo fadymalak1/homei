@@ -20,10 +20,16 @@ class AppColors {
   static const Color greyText = Colors.grey;
 
 
-  // Custom Colors
-  static const Color lightGray = Color(0xFFEEEEEE);
-  static const Color darkGray = Color(0xFF757575);
-  static const Color orange = Color(0xFFFF5722);
-  static const Color yellow = Color(0xFFFFEB3B);
-  static const Color blue = Color(0xFF2196F3);
+}
+
+
+class AppPadding {
+  static const double small = 8.0;
+  static const double medium = 16.0;
+  static const double large = 32.0;
+}
+
+class AppFontSizes {
+  static const double headline1 = 32.0;
+  static const double body = 16.0;
 }

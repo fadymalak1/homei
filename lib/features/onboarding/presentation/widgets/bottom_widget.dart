@@ -4,14 +4,15 @@ import 'package:homei/core/localization/app_localizations.dart';
 import 'package:homei/core/routes.dart';
 import 'package:homei/core/utils/color_palette.dart';
 import 'package:homei/features/onboarding/presentation/controllers/onboarding_controller.dart';
+import 'package:homei/widgets/custom_button.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 Widget buildBottomNavigation(
-    BuildContext context,
-    int pageIndex,
-    WidgetRef ref,
-    PageController pageController, // Add PageController
-    ) {
+  BuildContext context,
+  int pageIndex,
+  WidgetRef ref,
+  PageController pageController, // Add PageController
+) {
   final translate = AppLocalizations.of(context).translate;
 
   return Padding(
@@ -35,8 +36,7 @@ Widget buildBottomNavigation(
         // Next/Get Started Button
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20.0),
-          child: ElevatedButton(
-
+          child: CustomButton(
             onPressed: () {
               if (pageIndex < 3) {
                 // Move to the next page
@@ -46,21 +46,14 @@ Widget buildBottomNavigation(
                   curve: Curves.easeInOut,
                 );
               } else {
-                Navigator.pushReplacementNamed(context, AppRoutes.login);
+                Navigator.pushReplacementNamed(context, AppRoutes.signIn);
               }
             },
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppColors.primary,
-              foregroundColor: AppColors.lightText,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10.0),
-              ),
-              fixedSize: const Size(double.maxFinite, 45),
-            ),
-            child: Text(pageIndex < 3 ? translate('next') : translate('get_started')),
+            widget: Text(pageIndex < 3 ? translate('next') : translate('get_started')),
           ),
         ),
       ],
     ),
   );
 }
+

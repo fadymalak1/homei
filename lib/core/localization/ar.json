@@ -1,5 +1,27 @@
 {
   "get_started": "ابدأ",
   "next": "التالي",
-  "skip": "تخطى"
+  "skip": "تخطى",
+  "Welcome_back!": "مرحبًا بعودتك!",
+  "please_enter_your_details": "يرجى إدخال بياناتك",
+  "Email_or_Phone": "البريد الإلكتروني أو رقم الهاتف",
+  "Password": "كلمة المرور",
+  "Confirm_Password": "تأكيد كلمة المرور",
+  "Sign_in": "تسجيل الدخول",
+  "Already_have_an_account?": "هل لديك حساب بالفعل؟",
+  "or": "أو",
+  "Sign_up": "تسجيل حساب",
+  "Remember_me": "تذكرني",
+  "Forgot_password?": "هل نسيت كلمة المرور؟",
+  "Don't_have_an_account?": "ليس لديك حساب؟",
+  "Please_enter_email_and_password": "يرجى إدخال البريد الإلكتروني وكلمة المرور",
+  "Login_successful!": "تم تسجيل الدخول بنجاح!",
+  "Login_failed!": "فشل تسجيل الدخول!",
+  "Create_new_account": "إنشاء حساب جديد",
+  "Get_your_dream_home_today": "احصل علي منزل احلامك اليوم!",
+  "Create_Account": "إنشاء حساب",
+  "Name": "الاسم بالكامل",
+  "Email": "البريد الإلكتروني",
+  "Phone": "رقم الهاتف",
+  "Already_a_member?": "مستخدم بالفعل؟"
 }

@@ -1,5 +1,27 @@
 {
   "get_started": "Get Started",
   "skip": "Skip All",
-  "next": "Next"
+  "next": "Next",
+  "Welcome_back!": "Welcome back!",
+  "please_enter_your_details": "Please enter your details",
+  "Email_or_Phone": "Email or Phone",
+  "Password": "Password",
+  "Confirm_Password": "Confirm Password",
+  "Sign_in": "Sign in",
+  "Already_have_an_account?": "Already have an account?",
+  "or": "or",
+  "Sign_up": "Sign up",
+  "Remember_me": "Remember me",
+  "Forgot_password?": "Forgot password?",
+  "Don't_have_an_account?": "Don't have an account?",
+  "Please_enter_email_and_password": "Please enter email and password",
+  "Login_successful": "Login successful",
+  "Login_failed": "Login failed",
+  "Create_new_account": "Create new account",
+  "Get_your_dream_home_today": "Get your dream home today!",
+  "Create_Account": "Create Account",
+  "Name": "Full Name",
+  "Email": "Email Address",
+  "Phone": "Phone Number",
+  "Already_a_member?": "Already a member?"
 }
